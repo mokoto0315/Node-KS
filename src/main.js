@@ -8,7 +8,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 
 client.once(Events.ClientReady, c => {
-	console.log(`系統端:${c.user.tag}  \n 已啟動完成`);
+	console.log(`系統端:${c.user.tag}  \n已啟動完成`);
 });
 
 
